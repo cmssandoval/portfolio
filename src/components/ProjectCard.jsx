@@ -13,8 +13,8 @@ const ProjectCard = ({ project }) => {
           {project.stack.map( stack => <Badge bg='secondary' className='me-1' key={stack}>{stack}</Badge>)}
         </Card.Body>
         <Card.Footer>
-          {project.repositories.map( repo => (
-            <Button className='me-3' size='sm' variant='outline-success' target='_blank' href={repo.link}>
+          {project.repositories.map(( repo, index ) => (
+            <Button key={index} className='me-3' size='sm' variant='outline-success' target='_blank' href={repo.link}>
               <i className='bi bi-github' /> {repo.name}
             </Button>
           ))}
