@@ -13,7 +13,7 @@ const AppNavbar = () => {
   return (
     <Navbar expand='md' sticky='top' className='border-bottom terminal'>
       <Container>
-        <Navbar.Brand href='#hero' className='fw-bold text-success brand'>
+        <Navbar.Brand href='#hero' className='fw-bold text-success'>
           {'Portafolio'.split('').map(( letter, index ) => (
                 <span
                     key={index}
@@ -22,7 +22,7 @@ const AppNavbar = () => {
                         animationDelay: `${index * 0.1}s`,
                     }}
                 >
-                    {letter === ' ' ? '\u00A0' : letter}
+                    {letter}
                 </span>
             ))}
         </Navbar.Brand>
