@@ -38,15 +38,13 @@ const Contact = () => {
         <h2 className='mb-4'><span className='text-success'>#</span> contact</h2>
         <Row className='g-3'>
           <Col md={5}>
-            <p className='text-success mb-3'>$ cat links.txt</p>
             <ul className='list-unstyled'>
-              <li><a href={`mailto:${profile.email}`}><i className='bi bi-envelope' /> {profile.email}</a></li>
-              <li><a target='_blank' href={profile.github}><i className='bi bi-github' /> GitHub</a></li>
-              <li><a target='_blank' href={profile.linkedin}><i className='bi bi-linkedin' /> LinkedIn</a></li>
+              <li><i className='text-success bi-envelope' /> <a href={`mailto:${profile.email}`}>{profile.email}</a></li>
+              <li><i className='text-success bi-github' /> <a target='_blank' href={profile.github}>GitHub</a></li>
+              <li><i className='text-success bi-linkedin' /> <a target='_blank' href={profile.linkedin}>LinkedIn</a></li>
             </ul>
           </Col>
           <Col md={7}>
-            <p className='text-success mb-3'>$ cat contact.form</p>
             <Form onSubmit={handleSubmit}>
               <Form.Group className='mb-3' controlId='name'>
                 <Form.Label>Nombre</Form.Label>

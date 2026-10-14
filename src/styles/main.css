@@ -22,3 +22,7 @@ section[id] {
 .card-bg {
     background: var(--secondary-body-bg);
 }
+
+.text-success {
+    color: var(--bs-success) !important;
+}

@@ -1,7 +1,3 @@
-.text-success {
-    color: var(--bs-success) !important;
-}
-
 .btn-success {
     background: var(--bs-btn-success);
     border-color: var(--bs-btn-success);
