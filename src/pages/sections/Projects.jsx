@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import ProjectCard from '../../components/ui/ProjectCard.jsx';
+import ProjectCard from '../../components/ProjectCard.jsx';
 import { projects } from '../../data/projects.js';
 
 const Projects = () => {
