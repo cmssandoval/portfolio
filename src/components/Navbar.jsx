@@ -13,7 +13,19 @@ const AppNavbar = () => {
   return (
     <Navbar expand='md' sticky='top' className='border-bottom terminal'>
       <Container>
-        <Navbar.Brand href='#hero' className='fw-bold text-success'>~/carlos</Navbar.Brand>
+        <Navbar.Brand href='#hero' className='fw-bold text-success brand'>
+          {'Portafolio'.split('').map(( letter, index ) => (
+                <span
+                    key={index}
+                    className="animated-letter"
+                    style={{
+                        animationDelay: `${index * 0.1}s`,
+                    }}
+                >
+                    {letter === ' ' ? '\u00A0' : letter}
+                </span>
+            ))}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls='main-nav' />
         <Navbar.Collapse id='main-nav'>
           <Nav className='ms-auto'>
