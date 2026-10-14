@@ -1,23 +1,23 @@
 export const projects = [
     {
         id: 0,
-        title: 'api-gateway',
-        description: 'Gateway REST con autenticación JWT, rate limiting y logging centralizado.',
+        title: 'Project Template',
+        description: '-',
         stack: ['Node.js', 'Express', 'PostgreSQL', 'Docker'],
-        repo: 'https://github.com/mi_usuario/api-gateway',
+        repo: '/portfolio/#',
     },
     {
         id: 1,
-        title: 'lan-chat',
-        description: 'Mensajería en tiempo real para redes locales, enfocada en seguridad.',
+        title: 'Project Template',
+        description: '-',
         stack: ['Node.js', 'WebSockets', 'React'],
-        repo: 'https://github.com/mi_usuario/lan-chat',
+        repo: '/portfolio/#',
     },
     {
         id: 2,
-        title: 'task-manager',
-        description: 'App fullstack de tareas con roles, API documentada y tests de integración.',
+        title: 'Project Template',
+        description: '-',
         stack: ['React', 'Express', 'MongoDB'],
-        repo: 'https://github.com/mi_usuario/task-manager',
+        repo: '/portfolio/#',
     },
 ];
