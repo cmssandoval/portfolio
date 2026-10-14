@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
   return (
     <Col md={6} lg={4}>
       <Card className='h-100'>
-        <Card.Body>
+        <Card.Body className='rounded card-bg'>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
           {project.stack.map(stack => <Badge bg='secondary' className='me-1' key={stack}>{stack}</Badge>)}

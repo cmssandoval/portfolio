@@ -11,7 +11,7 @@ const links = [
 
 const AppNavbar = () => {
   return (
-    <Navbar expand='md' sticky='top' className='border-bottom bg-body'>
+    <Navbar expand='md' sticky='top' className='border-bottom terminal'>
       <Container>
         <Navbar.Brand href='#hero' className='fw-bold text-success'>~/carlos</Navbar.Brand>
         <Navbar.Toggle aria-controls='main-nav' />

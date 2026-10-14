@@ -1,9 +1,23 @@
+:root {
+    /* Dark Mode Colors */
+    --main-body-bg: #0D1117;
+    --accent-body-bg: #010409;
+    --secondary-body-bg: #151B23;
+    
+    --main-text: #F0F6FC;
+
+    /* Light Mode Colors */
+    
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'JetBrains Mono', monospace;
+    background: var(--main-body-bg);
+    color: var(--main-text);
 }
 
 section[id] {
@@ -11,5 +25,9 @@ section[id] {
 }
 
 .terminal {
-    background: var(--bs-tertiary-bg);
+    background: var(--accent-body-bg);
+}
+
+.card-bg {
+    background: var(--secondary-body-bg);
 }
