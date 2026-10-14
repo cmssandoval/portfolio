@@ -10,12 +10,14 @@ const ProjectCard = ({ project }) => {
         <Card.Body className='rounded card-bg'>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
-          {project.stack.map(stack => <Badge bg='secondary' className='me-1' key={stack}>{stack}</Badge>)}
+          {project.stack.map( stack => <Badge bg='secondary' className='me-1' key={stack}>{stack}</Badge>)}
         </Card.Body>
         <Card.Footer>
-          <Button size='sm' variant='outline-success' href={project.repo}>
-            <i className='bi bi-github' /> repo
-          </Button>
+          {project.repositories.map( repo => (
+            <Button className='me-3' size='sm' variant='outline-success' target='_blank' href={repo.link}>
+              <i className='bi bi-github' /> {repo.name}
+            </Button>
+          ))}
         </Card.Footer>
       </Card>
     </Col>
