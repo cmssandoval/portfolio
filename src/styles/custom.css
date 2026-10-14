@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+section[id] {
+    scroll-margin-top: 4rem;
+}
+
+.terminal {
+    background: var(--bs-tertiary-bg);
+}
