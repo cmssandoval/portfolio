@@ -1,14 +1,5 @@
-:root {
-    /* Dark Mode Colors */
-    --main-body-bg: #0D1117;
-    --accent-body-bg: #010409;
-    --secondary-body-bg: #151B23;
-    
-    --main-text: #F0F6FC;
-
-    /* Light Mode Colors */
-    
-}
+@import './root.css';
+@import './buttons.css';
 
 html {
     scroll-behavior: smooth;

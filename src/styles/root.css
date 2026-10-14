@@ -1,0 +1,15 @@
+:root {
+    /* Dark Mode Colors */
+    --main-body-bg: #0D1117;
+    --accent-body-bg: #010409;
+    --secondary-body-bg: #151B23;
+
+    --main-text: #F0F6FC;
+
+    /* Bootstrap overwrite */
+    --bs-success: #0fbf3e;
+    --bs-btn-success: #238636;
+
+    /* Light Mode Colors */
+
+}

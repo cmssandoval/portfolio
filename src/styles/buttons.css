@@ -1,0 +1,27 @@
+.text-success {
+    color: var(--bs-success) !important;
+}
+
+.btn-success {
+    background: var(--bs-btn-success);
+    border-color: var(--bs-btn-success);
+}
+
+.btn-outline-success {
+    color: var(--bs-success);
+    border-color: var(--bs-success);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    background-color: var(--bs-success);
+    border-color: var(--bs-success);
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+    background-color: var(--bs-success);
+    color: var(--main-text);
+}
