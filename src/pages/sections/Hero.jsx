@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import { profile } from '../../data/profile.js';
+import profile from '../../data/profile.js';
 
 const Hero = () => {
   return (

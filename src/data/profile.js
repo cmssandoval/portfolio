@@ -1,4 +1,4 @@
-export const profile = {
+const profile = {
     name: 'Carlos Macías Sandoval',
     role: 'Fullstack Developer · Backend-focused',
     bio: [
@@ -9,3 +9,5 @@ export const profile = {
     github: 'https://github.com/cmssandoval',
     linkedin: 'https://www.linkedin.com/in/carlos-macias-sandoval',
 };
+
+export default profile;

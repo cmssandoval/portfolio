@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         <Card.Body className='rounded card-bg'>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
-          {project.stack.map( stack => <Badge bg='secondary' className='me-1' key={stack}>{stack}</Badge>)}
+          {project.stack.map(( stack, index ) => <Badge bg='secondary' className='me-1' key={index}>{stack}</Badge>)}
         </Card.Body>
         <Card.Footer>
           {project.repositories.map(( repo, index ) => (

@@ -9,8 +9,8 @@ const SkillCard = ({ group }) => {
         <Card.Body className='rounded card-bg'>
           <Card.Title className='m-0 text-success'>{group.category}</Card.Title>
         </Card.Body>
-        <Card.Footer className='py-3 d-flex  flex-grow-1 flex-wrap align-items-start gap-2'>
-          {group.items.map(item => <Badge bg='secondary' key={item}>{item}</Badge>)}
+        <Card.Footer className='py-3 d-flex flex-wrap align-items-start gap-2'>
+          {group.items.map(( item, index ) => <Badge bg='secondary' key={index}>{item}</Badge>)}
         </Card.Footer>
       </Card>
     </Col>

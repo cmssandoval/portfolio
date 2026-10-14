@@ -4,8 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Alert from 'react-bootstrap/Alert';
-import { profile } from '../../data/profile';
+// import Alert from 'react-bootstrap/Alert';
+import profile from '../../data/profile';
 
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -48,21 +48,21 @@ const Contact = () => {
             <Form onSubmit={handleSubmit}>
               <Form.Group className='mb-3' controlId='name'>
                 <Form.Label>Nombre</Form.Label>
-                <Form.Control name='name' value={data.name} onChange={handleChange} required />
+                <Form.Control name='name' value={data.name} onChange={handleChange} required disabled />
               </Form.Group>
               <Form.Group className='mb-3' controlId='email'>
                 <Form.Label>Email</Form.Label>
-                <Form.Control type='email' name='email' value={data.email} onChange={handleChange} required />
+                <Form.Control type='email' name='email' value={data.email} onChange={handleChange} required disabled />
               </Form.Group>
               <Form.Group className='mb-3' controlId='message'>
                 <Form.Label>Mensaje</Form.Label>
-                <Form.Control as='textarea' rows={4} name='message' value={data.message} onChange={handleChange} required />
+                <Form.Control as='textarea' rows={4} name='message' value={data.message} onChange={handleChange} required disabled />
               </Form.Group>
               <Button type='submit' variant='success' disabled={ status === 'sending' || !API_URL }>
                 { status === 'sending' ? 'Enviando…' : './send' }
               </Button>
-              { status === 'ok' && <Alert variant='success' className='mt-3'>Mensaje enviado.</Alert> }
-              { status === 'error' && <Alert variant='danger' className='mt-3'>No se pudo enviar. Usa el correo directo.</Alert> }
+              {/* { status === 'ok' && <Alert variant='success' className='mt-3'>Mensaje enviado.</Alert> }
+              { status === 'error' && <Alert variant='danger' className='mt-3'>No se pudo enviar. Usa el correo directo.</Alert> } */}
             </Form>
           </Col>
         </Row>

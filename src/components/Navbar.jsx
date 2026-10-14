@@ -1,13 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-
-const links = [
-  { href: '#about', label: 'about' },
-  { href: '#skills', label: 'skills' },
-  { href: '#projects', label: 'projects' },
-  { href: '#contact', label: 'contact' },
-];
+import links from '../data/navigationLinks.js';
 
 const AppNavbar = () => {
   return (
@@ -29,8 +23,8 @@ const AppNavbar = () => {
         <Navbar.Toggle aria-controls='main-nav' />
         <Navbar.Collapse id='main-nav'>
           <Nav className='ms-auto'>
-            { links.map( link => (
-              <Nav.Link key={link.href} href={link.href}>./{link.label}</Nav.Link>
+            { links.map(( link, index ) => (
+              <Nav.Link key={index} href={link.href}>./{link.label}</Nav.Link>
             ))}
           </Nav>
         </Navbar.Collapse>

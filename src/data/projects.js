@@ -1,6 +1,5 @@
-export const projects = [
+const projects = [
     {
-        id: 0,
         title: 'House Net',
         description: 'Aplicación web local para gestión del hogar: gestión de inventario, tareas, roles, calendario compartido, y más.',
         stack: [
@@ -21,7 +20,6 @@ export const projects = [
         ],
     },
     {
-        id: 1,
         title: 'Todo App',
         description: 'Aplicación FullStack desarrollada durante mis estudios en Desafío LATAM.',
         stack: [
@@ -38,7 +36,6 @@ export const projects = [
         ],
     },
     {
-        id: 2,
         title: 'Tienda de Joyas',
         description: 'Aplicación que permite gestionar una Tienda de Joyas mediante CRUD.',
         stack: [
@@ -55,3 +52,5 @@ export const projects = [
         ],
     },
 ];
+
+export default projects;
