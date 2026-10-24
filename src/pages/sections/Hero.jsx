@@ -9,11 +9,10 @@ const Hero = () => {
         <div className='terminal border rounded p-4'>
           <p className='text-success mb-1'>$ whoami</p>
           <h1 className='display-5 fw-bold'>{profile.name}</h1>
-          <p className='text-success mb-1'>$ cat role.txt</p>
           <p className='lead'>{profile.role}</p>
-          <div className='d-flex gap-2 flex-wrap'>
-            <Button variant='success' href='#projects'>ls projects/</Button>
-            <Button variant='outline-info' href='#contact'>ls contact/</Button>
+          <div className='d-flex gap-3 flex-wrap'>
+            <Button variant='success' href='#projects'>Ver Proyectos</Button>
+            <Button variant='outline-info' href='#contact'>Contáctame</Button>
           </div>
         </div>
       </Container>
