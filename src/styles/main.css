@@ -26,13 +26,3 @@ section[id] {
 .text-success {
     color: var(--bs-success) !important;
 }
-
-.animated-letter {
-    display: inline-block;
-    opacity: 0;
-    animation: showLetter 0.2s ease-out forwards;
-}
-
-@keyframes showLetter {
-    to { opacity: 1; }
-}

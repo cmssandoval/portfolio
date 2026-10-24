@@ -8,17 +8,7 @@ const AppNavbar = () => {
     <Navbar expand='md' sticky='top' className='border-bottom terminal'>
       <Container>
         <Navbar.Brand href='#hero' className='fw-bold text-success'>
-          {'Portafolio'.split('').map(( letter, index ) => (
-                <span
-                    key={index}
-                    className="animated-letter"
-                    style={{
-                        animationDelay: `${index * 0.1}s`,
-                    }}
-                >
-                    {letter}
-                </span>
-            ))}
+        Portafolio - Carlos MS
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='main-nav' />
         <Navbar.Collapse id='main-nav'>
