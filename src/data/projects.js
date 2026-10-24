@@ -1,21 +1,22 @@
 const projects = [
     {
         title: 'House Net',
-        description: 'Aplicación web local para gestión del hogar: gestión de inventario, tareas, roles, calendario compartido, y más.',
+        description: 'Aplicación web local con atuenticación para gestión del hogar: inventario, tareas, roles, calendario compartido, y más.',
         stack: [
             'PostgreSQL',
             'Express',
             'React',
             'Node.js',
         ],
+        demo: 'https://cmssandoval.github.io/housenet/',
         repositories: [
             {
                 link: 'https://github.com/cmssandoval/house-net-frontend',
-                name: 'Frontend',
+                name: 'Front',
             },
             {
                 link: 'https://github.com/cmssandoval/house-net-backend',
-                name: 'Backend',
+                name: 'Back',
             },
         ],
     },
@@ -28,6 +29,7 @@ const projects = [
             'React',
             'Node.js',
         ],
+        demo: 'https://cmssandoval.github.io/DL-ER-todo-app/',
         repositories: [
             {
                 link: 'https://github.com/cmssandoval/React-Express-Todo-App',
@@ -37,13 +39,14 @@ const projects = [
     },
     {
         title: 'Tienda de Joyas',
-        description: 'Aplicación que permite gestionar una Tienda de Joyas mediante CRUD.',
+        description: 'Aplicación FullStack que permite gestionar una Tienda de Joyas mediante CRUD.',
         stack: [
             'PostgreSQL',
             'Express',
             'React',
             'Node.js',
         ],
+        demo: 'https://cmssandoval.github.io/tienda-de-joyas/',
         repositories: [
             {
                 link: 'https://github.com/cmssandoval/Desafio-Tienda-de-Joyas',
