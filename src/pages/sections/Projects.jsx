@@ -5,7 +5,7 @@ import projects from '../../data/projects.js';
 
 const Projects = () => {
   return (
-    <section id='projects' className='py-4'>
+    <section id='projects' className='mt-2 py-2'>
       <Container>
         <h2 className='mb-4'><span className='text-success'>#</span> projects</h2>
         <Row className='g-4'>

@@ -3,7 +3,7 @@ import profile from '../../data/profile.js';
 
 const About = () => {
   return (
-    <section id='about' className='py-4'>
+    <section id='about' className='mt-2 py-2'>
       <Container>
         <h2 className='mb-4'><span className='text-success'>#</span> about</h2>
         {profile.bio.map(( element, index ) => <p key={index}>{element}</p>)}

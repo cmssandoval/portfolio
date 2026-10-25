@@ -5,7 +5,7 @@ import SkillCard from '../../components/SkillCard.jsx';
 
 const Skills = () => {
   return (
-    <section id='skills' className='py-4'>
+    <section id='skills' className='py-2'>
       <Container>
         <h2 className='mb-4'><span className='text-success'>#</span> skills</h2>
         <Row className='g-4'>

@@ -4,7 +4,7 @@ import profile from '../../data/profile.js';
 
 const Hero = () => {
   return (
-    <section id='hero' className='mt-1 py-4'>
+    <section id='hero' className='mt-1 pb-2 pt-4'>
       <Container>
         <div className='terminal border rounded p-4'>
           <p className='text-success mb-1'>$ whoami</p>

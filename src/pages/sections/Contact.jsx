@@ -35,7 +35,7 @@ const Contact = () => {
   // };
 
   return (
-    <section id='contact' className='py-4'>
+    <section id='contact' className='my-2 py-2'>
       <Container>
         <h2 className='mb-4'><span className='text-success'>#</span> contact</h2>
         <Row className='g-3'>
