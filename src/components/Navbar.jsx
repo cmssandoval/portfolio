@@ -13,6 +13,11 @@ const AppNavbar = () => {
         <Navbar.Toggle aria-controls='main-nav' />
         <Navbar.Collapse id='main-nav'>
           <Nav className='ms-auto'>
+            <Nav.Link
+              href='https://github.com/cmssandoval/portfolio'
+              target='_blank'
+              className='text-success fw-bold'
+            >./this.repo</Nav.Link>
             { links.map(( link, index ) => (
               <Nav.Link key={index} href={link.href}>./{link.label}</Nav.Link>
             ))}
