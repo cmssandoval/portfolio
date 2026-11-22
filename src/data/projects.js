@@ -4,7 +4,7 @@ const projects = [
         description: 'Aplicación web local con autenticación para gestión del hogar: inventario, tareas, roles, calendario compartido, y más.',
         stack: ['PostgreSQL', 'Express', 'React', 'Node.js'],
         image: './housenet.png',
-        demoUrl: 'https://cmssandoval.github.io/housenet/',
+        demoUrl: 'https://cmssandoval.github.io/house-net/',
         repositoryUrl: 'https://github.com/cmssandoval/house-net',
     },
     {
