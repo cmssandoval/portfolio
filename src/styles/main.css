@@ -5,6 +5,20 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
 body {
     font-family: 'JetBrains Mono', monospace;
     background: var(--main-body-bg);
@@ -15,6 +29,19 @@ section[id] {
     scroll-margin-top: 4rem;
 }
 
+a,
+button,
+.nav-link,
+.btn {
+  outline-offset: 0.25rem;
+}
+
+a:focus-visible,
+button:focus-visible,
+.nav-link:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid #58a6ff;
+}
 .terminal {
     background: var(--accent-body-bg);
 }
@@ -25,4 +52,43 @@ section[id] {
 
 .text-success {
     color: var(--bs-success) !important;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1100;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  background: var(--accent-body-bg);
+  color: var(--main-text);
+}
+
+.portfolio-repo,
+.portfolio-repo:visited,
+.portfolio-repo:active {
+    color: var(--bs-btn-success) !important;
+    transition: ease-in-out .25s;
+}
+
+.portfolio-repo:hover {
+    color: var(--bs-success) !important;
+    font-size: 18px;
+    transition: ease-in-out .25s;
+}
+
+.nav-buttons {
+    transition: ease-in-out .25s;
+}
+
+.nav-buttons:hover {
+    font-size: 18px;
+    transition: ease-in-out .25s;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }

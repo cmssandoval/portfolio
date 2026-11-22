@@ -1,9 +1,10 @@
 const profile = {
     name: 'Carlos Macías Sandoval',
-    role: 'Fullstack Developer · Backend-focused',
+    role: 'Fullstack Developer',
     bio: [
-        'Desarrollador fullstack con foco en backend, APIs y arquitectura de sistemas.',
-        'Me interesan las redes, la seguridad y la infraestructura propia (self-hosted).',
+        'Desarrollador Full Stack enfocado en el Backend, APIs y Arquitectura de Software.',
+        'Me apasionan las Redes, la Seguridad, y la Infraestructura y Arquitectura de Software y Sistemas.',
+        'Actualmente, exploro prácticas de la cultura DevOps, Ciberseguridad, Agentes de IA y Servicios Cloud.',
     ],
     email: 'carlossan.16.mc@gmail.com',
     github: 'https://github.com/cmssandoval',

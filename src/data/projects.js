@@ -1,58 +1,27 @@
 const projects = [
     {
         title: 'House Net',
-        description: 'Aplicación web local con atuenticación para gestión del hogar: inventario, tareas, roles, calendario compartido, y más.',
-        stack: [
-            'PostgreSQL',
-            'Express',
-            'React',
-            'Node.js',
-        ],
-        demo: 'https://cmssandoval.github.io/housenet/',
-        repositories: [
-            {
-                link: 'https://github.com/cmssandoval/house-net-frontend',
-                name: 'Front',
-            },
-            {
-                link: 'https://github.com/cmssandoval/house-net-backend',
-                name: 'Back',
-            },
-        ],
+        description: 'Aplicación web local con autenticación para gestión del hogar: inventario, tareas, roles, calendario compartido, y más.',
+        stack: ['PostgreSQL', 'Express', 'React', 'Node.js'],
+        image: './housenet.png',
+        demoUrl: 'https://cmssandoval.github.io/housenet/',
+        repositoryUrl: 'https://github.com/cmssandoval/house-net',
     },
     {
-        title: 'Todo App',
-        description: 'Aplicación FullStack desarrollada durante mis estudios en Desafío LATAM.',
-        stack: [
-            'PostgreSQL',
-            'Express',
-            'React',
-            'Node.js',
-        ],
-        demo: 'https://cmssandoval.github.io/DL-ER-todo-app/',
-        repositories: [
-            {
-                link: 'https://github.com/cmssandoval/React-Express-Todo-App',
-                name: 'Repo',
-            },
-        ],
+        title: 'MoonShelf',
+        description: 'E-commerce de mangas con gestión de productos (CRUD), autenticación de usuarios, y persistencia en base de datos.',
+        stack: ['PostgreSQL', 'Express', 'React', 'Node.js'],
+        image: './moonshelf.png',
+        demoUrl: 'https://moonshelf-kappa.vercel.app/',
+        repositoryUrl: 'https://github.com/cmssandoval/proyecto-final-manga-store',
     },
     {
-        title: 'Tienda de Joyas',
-        description: 'Aplicación FullStack que permite gestionar una Tienda de Joyas mediante CRUD.',
-        stack: [
-            'PostgreSQL',
-            'Express',
-            'React',
-            'Node.js',
-        ],
-        demo: 'https://cmssandoval.github.io/tienda-de-joyas/',
-        repositories: [
-            {
-                link: 'https://github.com/cmssandoval/Desafio-Tienda-de-Joyas',
-                name: 'Repo',
-            },
-        ],
+        title: 'Blackjack',
+        description: 'Juego de Blackjack desarrollado con tecnologías web básicas.',
+        stack: ['JavaScript'],
+        image: './blackjack-win.png',
+        demoUrl: 'https://cmssandoval.github.io/blackjack/',
+        repositoryUrl: 'https://github.com/cmssandoval/blackjack',
     },
 ];
 

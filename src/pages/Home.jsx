@@ -6,7 +6,7 @@ import Contact from './sections/Contact.jsx';
 
 const Home = () => {
   return (
-    <main className='mx-3'>
+    <main id='main-content' className='mx-3'>
       <Hero />
       <About />
       <Skills />

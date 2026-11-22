@@ -11,8 +11,8 @@ const Hero = () => {
           <h1 className='display-5 fw-bold'>{profile.name}</h1>
           <p className='lead'>{profile.role}</p>
           <div className='d-flex gap-3 flex-wrap'>
-            <Button variant='success' href='#projects'>Ver Proyectos</Button>
-            <Button variant='outline-info' href='#contact'>Contáctame</Button>
+            <Button variant='success nav-buttons' href='#projects'>Ver Proyectos</Button>
+            <Button variant='outline-info nav-buttons' href='#contact'>Contáctame</Button>
           </div>
         </div>
       </Container>

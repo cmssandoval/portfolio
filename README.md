@@ -1,7 +1,7 @@
 # Portafolio
 Este es mi portafolio, puedes verlo visitando [**este enlace**](https://cmssandoval.github.io/portfolio).
 
-Si llegaste aquí desde un sitio ajeno a GitHub, te invito a visitar mi perfil: **https://github.com/cmssandoval/**
+Te invito a visitar mi perfil de GitHub para conocer más sobre mí: **https://github.com/cmssandoval/**
 
 ## Demo
 ![portfolio-demo](./src/assets/images/portfolio-demo.png)
